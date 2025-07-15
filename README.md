@@ -192,26 +192,6 @@ The API comes with the following sample products:
 - Home & Kitchen
 - Electronics
 
-## Example Usage
-
-### Using curl
-
-```bash
-# Get all products
-curl http://localhost:3000/products
-
-# Get product by ID
-curl http://localhost:3000/products/1
-
-# Filter by category
-curl http://localhost:3000/products?category=electronics
-
-# Add new product
-curl -X POST http://localhost:3000/products \
-  -H "Content-Type: application/json" \
-  -d '{"name":"Laptop","category":"Electronics","price":999.99}'
-```
-
 ## Error Handling
 
 The API returns appropriate HTTP status codes:
