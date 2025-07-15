@@ -135,7 +135,9 @@ GET /products?category=apparel
 ```
 
 **Example using curl:**
-curl "http://localhost:3000/products?category=Apparel"
+```
+curl http://localhost:3000/products?category=Apparel
+```
 
 ### 4. Add New Product
 
