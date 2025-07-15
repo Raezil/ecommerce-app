@@ -1,0 +1,17 @@
+{
+  "name": "solution-node",
+  "version": "1.0.0",
+  "description": "A simple Express.js REST API for managing products with basic CRUD operations and filtering capabilities.",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "sequelize": "^6.37.7",
+    "sqlite3": "^5.1.7"
+  }
+}
