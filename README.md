@@ -22,11 +22,11 @@ A simple Express.js REST API for managing products with basic CRUD operations an
 
 1. Clone the repository
 2. Install dependencies:
-   ```bash
+```bash
    npm install express
    npm install sequelize
-   npm install sqlite3
-   ```
+   npm install --save pg pg-hstore
+```
 
 ### Running the Server
 
